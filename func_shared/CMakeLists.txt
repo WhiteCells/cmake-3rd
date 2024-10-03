@@ -11,9 +11,9 @@ set(src
 
 add_library(${lib_name} SHARED ${src})
 
-target_include_directories(${lib_name} PUBLIC
-    ${CMAKE_CURRENT_SOURCE_DIR}/include
-)
+# target_include_directories(${lib_name} PUBLIC
+#     ${CMAKE_CURRENT_SOURCE_DIR}/include
+# )
 
 # 设置动态库的输出目录
 set_target_properties(${lib_name} PROPERTIES

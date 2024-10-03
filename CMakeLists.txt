@@ -19,5 +19,5 @@ add_executable(${PROJECT_NAME} ${src})
 
 target_link_libraries(${PROJECT_NAME} PRIVATE
     func_lib
-    func2_lib
+    func_lib2
 )

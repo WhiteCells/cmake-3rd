@@ -1,7 +1,7 @@
 #include "../include/func.h"
 #include <iostream>
 
-void func()
+void sh::func()
 {
-    std::cout << __func__ << std::endl;
+    std::cout << "shared " << __func__ << std::endl;
 }
