@@ -11,9 +11,9 @@ set(src
 
 add_library(${lib_name} STATIC ${src})
 
-# target_include_directories(${PROJECT_NAME} PUBLIC 
-#     ${CMAKE_CURRENT_SOURCE_DIR}/include
-# )
+target_include_directories(${lib_name} PUBLIC 
+    ${CMAKE_CURRENT_SOURCE_DIR}/include
+)
 
 # set_target_properties(${lib_name} PROPERTIES
 #     RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin
